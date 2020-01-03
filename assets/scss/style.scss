@@ -1,6 +1,39 @@
+$cwhite: white;
+$coran: #e84c3c;
+$cgris: rgb(52, 52, 52);
+$fofa: 'Open Sans', sans-serif;
+
 body {
     text-align: center;
+    font-family: $fofa;
+    background-color: lightgrey;
 }  
+.upper {
+    width: 300px;
+    border: 3px black solid;
+    background-image: url("images/girl.jpg");
+}
+
+.case1 {
+    border: $coran 1px solid;
+    border-radius: 200px;
+
+}
 h1 {
     text-transform: uppercase;
+}
+.mainphoto {
+    width: 350px;
+    height: auto;
+    position: sticky;
+}
+
+h2 {
+    color: rgb(255, 46, 46);
+    font-weight: lighter;
+}
+
+.descript {
+    text-align: start;
+    color: $cgris;
 }

@@ -1,8 +1,38 @@
 body {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: lightgrey;
+}
+
+.upper {
+  width: 300px;
+  border: 3px black solid;
+  background-image: url("images/girl.jpg");
+}
+
+.case1 {
+  border: #e84c3c 1px solid;
+  border-radius: 200px;
 }
 
 h1 {
   text-transform: uppercase;
+}
+
+.mainphoto {
+  width: 350px;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+h2 {
+  color: #ff2e2e;
+  font-weight: lighter;
+}
+
+.descript {
+  text-align: start;
+  color: #343434;
 }
 /*# sourceMappingURL=style.css.map */
